@@ -1,0 +1,26 @@
+# Credentials - never commit
+.mcp.json
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+
+# Claude Code internals
+.claude.json
+.claude.json.backup
+.claude/projects/
+.claude/statsig/
+.claude/todos/
+.claude/debug/
+.claude/sessions/
+.claude/shell-snapshots/
+.claude/plugins/
+.claude/backups/
+.claude/settings.local.json
+# Container-only config (trinity#2036)
+.claude/settings.json
+
+# Runtime
+content/
+session-files/

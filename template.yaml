@@ -1,0 +1,18 @@
+name: trinity-demo
+display_name: Trinity Demo
+description: |
+  Minimal general-purpose demo assistant used to exercise the Trinity
+  onboarding and deployment flow end to end.
+avatar_prompt: A friendly, approachable guide in a smart-casual navy jacket, warm smile and curious eyes, standing in a bright modern workspace with soft glowing interface panels behind them, clean studio lighting
+resources:
+  cpu: "2"
+  memory: "4g"
+
+credentials: {}
+
+plugins:
+  marketplaces:
+    - name: abilityai
+      source: abilityai/abilities
+  installed:
+    - trinity@abilityai
