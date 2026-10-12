@@ -21,6 +21,9 @@ credentials.json
 # Container-only config (trinity#2036)
 .claude/settings.json
 
+# Trinity platform runtime state
+.trinity/
+
 # Runtime
 content/
 session-files/
